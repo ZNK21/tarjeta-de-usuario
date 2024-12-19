@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans';
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.background {
+	background-color: #fe0102;
+	height: 10em;
+	border-radius: 10px 10px 0 0;
+}
+
+.photo {
+	width: 20em;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border-radius: 50%;
+	object-position: -4.6em;
+	border: 0.5em solid white;
+	position: relative;
+	top: -5em;
+    left: -3em;
+}
+
+.content {
+	padding: 3em 5em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.card {
+	margin: 0 auto;
+	width: 700px;
+	box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
